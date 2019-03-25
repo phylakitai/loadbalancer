@@ -3,6 +3,7 @@ version: "3"
 networks:
   tier_0: ## Outside world
   front-tier: ## Inside proxy
+    name: front-tier
   tier_log: ## Logging
 
 volumes:
