@@ -35,7 +35,7 @@ services:
     restart: unless-stopped
     networks:
       - tier_0
-      - tier_1
+      - front-tier
       - tier_log
     volumes:
       - vhost_:/etc/nginx/vhost.d
